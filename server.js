@@ -24,7 +24,6 @@ app.set("view engine", "handlebars");
 // Have every request go through our route middleware
 app.use(routes);
 
-// If deployed, use the deployed database. Otherwise use the local mongoHeadlines database
 var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";
 
 // Connect to the Mongo DB
