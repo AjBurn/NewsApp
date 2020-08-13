@@ -6,3 +6,4 @@ router.post("/", noteController.create);
 router.delete("/:id", noteController.delete);
 
 module.exports = router;
+

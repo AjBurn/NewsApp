@@ -4,3 +4,4 @@ var fetchController = require("../../controllers/fetch");
 router.get("/", fetchController.scrapeHeadlines);
 
 module.exports = router;
+

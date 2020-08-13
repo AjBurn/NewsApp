@@ -41,3 +41,4 @@ var scrape = function() {
 };
 
 module.exports = scrape;
+
